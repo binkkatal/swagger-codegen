@@ -5,7 +5,7 @@ cd "$(dirname ${BASH_SOURCE})"
 
 maven_cache_repo="${HOME}/.m2/repository"
 
-mkdir -p "${maven_cache_repo}"
+imkdir -p "${maven_cache_repo}"
 
 docker run --rm -it \
         -w /gen \
